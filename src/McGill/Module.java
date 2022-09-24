@@ -1,8 +1,8 @@
 package McGill;
 
 public class Module extends Main{
-    String module_title;
-    String module_objective;
+    protected String module_title;
+    protected String module_objective;
     static Double module_grade;
     static Double module_points = 0.0;
     static Double module_questions = 0.0;

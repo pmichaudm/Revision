@@ -11,7 +11,7 @@ public class Question extends Module{
     String link;
     Scanner scanner = new Scanner(System.in);
 
-    Question(String question, String solution, String explanation, String link) {
+    public Question(String question, String solution, String explanation, String link) {
         this.question = question;
         this.solution = solution;
         this.explanation = explanation;
